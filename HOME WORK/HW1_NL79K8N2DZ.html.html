@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+        body{
+            padding:20px;
+            margin:20px;
+        }
+        div{
+            padding:20px;
+            margin:20px;
+            }
+        fieldset{
+            background-color: rgb(228, 228, 228);
+            display: inline;
+            padding:10px;
+            margin:auto;
+            display:grid;
+        }    
+        .user-btn{
+          background-color:lightgreen;
+          color:white;
+          border-radius: 0.5em;
+        }
+
+    </style>
+    <title>Form-User</title>
+  </head>
+  <body>
+    <div class="user-form">
+      <form class="user-form">
+        <fieldset>
+          <label>First Name</label>
+          <input type="text" placeholder="Your name" size="100" /><br>
+          <label>Last Name</label>
+          <input type="text" placeholder="Last name" size="100"/><br>
+          <label>Country</label>
+          <select class="user-select">
+              <option>Ghana</option>
+            </select><br>
+          <label>Subject</label>
+          <textarea name="message" rows="5" cols="100" si>Write Something...</textarea><br>
+          <button class="user-btn">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
